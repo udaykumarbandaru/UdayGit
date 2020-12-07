@@ -38,7 +38,7 @@ namespace MiniProject
         {
             foreach (var item in guestDetails)
             {
-                Console.WriteLine($"Guest {item.Key} is attended with {item.Value - 1} more guests");
+                Console.WriteLine($"Guest {item.Key} is attended along with {item.Value - 1} more guests");
                 guestCount += item.Value;
             }
         }
